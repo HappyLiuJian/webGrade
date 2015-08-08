@@ -1,0 +1,16 @@
+.container{
+	width: 400px;
+	position: relative;
+	/*background-color: #cfcad8;*/
+	margin-top: 15%;
+	border-radius: 10px;
+}
+
+#welcome{
+	box-shadow: 5;
+}
+
+.tail{
+	position: absolute;
+	right: 15px;
+}

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+	<servlet>
+		<servlet-name>LoginAction</servlet-name>
+		<servlet-class>action.LoginAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginAction</servlet-name>
+		<url-pattern>/LoginAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LogoutAction</servlet-name>
+		<servlet-class>action.LogoutAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutAction</servlet-name>
+		<url-pattern>/LogoutAction</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>PasswordModifyAction</servlet-name>
+		<servlet-class>action.PasswordModifyAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PasswordModifyAction</servlet-name>
+		<url-pattern>/PasswordModifyAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddScoreAction</servlet-name>
+		<servlet-class>action.AddScoreAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddScoreAction</servlet-name>
+		<url-pattern>/AddScoreAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateScoreAction</servlet-name>
+		<servlet-class>action.UpdateScoreAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateScoreAction</servlet-name>
+		<url-pattern>/UpdateScoreAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddStudentToCourse</servlet-name>
+		<servlet-class>action.AddStudentToCourse</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddStudentToCourse</servlet-name>
+		<url-pattern>/AddStudentToCourse</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteStudentInCourse</servlet-name>
+		<servlet-class>action.DeleteStudentInCourse</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteStudentInCourse</servlet-name>
+		<url-pattern>/DeleteStudentInCourse</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddStudentInfo</servlet-name>
+		<servlet-class>action.AddStudentInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddStudentInfo</servlet-name>
+		<url-pattern>/AddStudentInfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddTeacherInfo</servlet-name>
+		<servlet-class>action.AddTeacherInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddTeacherInfo</servlet-name>
+		<url-pattern>/AddTeacherInfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddAdminInfo</servlet-name>
+		<servlet-class>action.AddAdminInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddAdminInfo</servlet-name>
+		<url-pattern>/AddAdminInfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddCourseInfo</servlet-name>
+		<servlet-class>action.AddCourseInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddCourseInfo</servlet-name>
+		<url-pattern>/AddCourseInfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateAdminAction</servlet-name>
+		<servlet-class>action.UpdateAdminAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateAdminAction</servlet-name>
+		<url-pattern>/UpdateAdminAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteAdminAction</servlet-name>
+		<servlet-class>action.DeleteAdminAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteAdminAction</servlet-name>
+		<url-pattern>/DeleteAdminAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateStudentAction</servlet-name>
+		<servlet-class>action.UpdateStudentAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateStudentAction</servlet-name>
+		<url-pattern>/UpdateStudentAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteStudentAction</servlet-name>
+		<servlet-class>action.DeleteStudentAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteStudentAction</servlet-name>
+		<url-pattern>/DeleteStudentAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateTeacherAction</servlet-name>
+		<servlet-class>action.UpdateTeacherAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateTeacherAction</servlet-name>
+		<url-pattern>/UpdateTeacherAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteTeacherAction</servlet-name>
+		<servlet-class>action.DeleteTeacherAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteTeacherAction</servlet-name>
+		<url-pattern>/DeleteTeacherAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateCourseAction</servlet-name>
+		<servlet-class>action.UpdateCourseAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateCourseAction</servlet-name>
+		<url-pattern>/UpdateCourseAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteCourseAction</servlet-name>
+		<servlet-class>action.DeleteCourseAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteCourseAction</servlet-name>
+		<url-pattern>/DeleteCourseAction</url-pattern>
+	</servlet-mapping>
+</web-app>
